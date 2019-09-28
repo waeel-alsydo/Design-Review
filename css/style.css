@@ -1,0 +1,188 @@
+/* --------start font face-------- */
+
+@font-face {font-family: Graphik-Regular; src: url(/Design-Review/fonts/Graphik-Regular.woff);}
+@font-face {font-family: TiemposHeadline-Semibold; src: url(/Design-Review/fonts/TiemposHeadline-Semibold.woff);}
+@font-face {font-family: Graphik-Medium; src: url(/Design-Review/fonts/Graphik-Medium.ttf);}
+@font-face {font-family: Theinhardt-Lt; src: url(/Design-Review/fonts/Theinhardt-Lt.woff);}
+
+/* --------end font face-------- */
+    
+/* start Html and body */
+    body {
+    margin: 0;
+}
+/* --------------start nav-------------- */
+nav ul {
+    padding-left: 5%;
+}
+nav li {
+    font-family: Graphik-Regular, sans-serif;
+    display: inline-block;
+    padding: 10px;
+}
+nav li:nth-child(5) {
+    font-family: TiemposHeadline-Semibold, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 20%;
+}
+nav li:last-child {
+    font-family: Graphik-Medium, sans-serif;
+    font-size: 20px;
+    padding-left: 20%;
+}
+nav li:last-child a {
+    text-decoration: none;
+    border: 2px solid #000;
+    color: black;
+    border-radius: 4px;
+    padding: 5px 40px;
+    text-transform: capitalize;
+}
+nav li:nth-child(6) a:hover {
+    color: #fff;
+    background-color: #27282A;
+}
+/* --------------end header-------------- */
+
+/* --------------start main-------------- */
+.div1 h1 {
+    font-family: Graphik-Regular, sans-serif;
+    font-size: 45px;
+    font-weight: 100;
+    text-align: center;
+    padding-top: 2em
+}
+.div1 img {
+    width: 100%;
+}
+.div2 p:first-child {
+    width: 55%;
+    display: inline-block;
+    padding-left: 10%;
+    padding-right: 4%
+}
+.div2 {
+    margin: 5em auto;
+}
+.div2 p {
+    font-family: Graphik-Medium, sans-serif;
+    font-size: 1.8rem;
+}
+.div2 div {
+    width: 20%;
+    display: inline-block;
+}
+.div2 div p:first-child {
+    font-family: Theinhardt-Lt, sans-serif;
+    font-weight: 100;
+    font-size: 5em;
+    margin: 0;
+}
+.div2 div p:last-child {
+    font-family: Theinhardt-Lt, sans-serif;
+    font-size: 24px;
+    color: #848689;
+}
+.div3 {
+    margin: 0 10%;
+}
+.div3 div {
+    display: inline-block;
+    width: 55%;
+    padding-left: 40px
+}
+.div3 img {
+    width: 40%;
+    height: 70vh;
+    padding-top: 5rem;
+}
+.div3 h2 {
+    font-family: TiemposHeadline-Semibold, sans-serif;
+    font-size: 4rem;
+}
+.div3 h3 {
+    font-family: Graphik-Medium, sans-serif;
+    font-size: 1.5rem;
+}
+.div3 p {
+    font-family: Theinhardt-Lt, sans-serif;
+    font-size: 1.3rem;
+    color: #848689;
+}
+.div4 {
+    background-color: #9FA2A7;
+    margin: 10%;
+    padding: 3rem;
+}
+.div4 img {
+    width: 40%;    
+    float: right;
+}
+.div4 h1 {
+    font-family: TiemposHeadline-Semibold, sans-serif;
+}
+.div4 ol li, p {
+    font-family: Theinhardt-Lt, sans-serif;
+    color: #3D3E41;
+}
+.div5 {
+    height: 80vh;
+    background: url(/Design-Review/img/28.png) center/cover no-repeat;
+    background-size: 1200px 250px;
+    margin: 10% auto;
+}
+.div5 h2 {
+    font-family: TiemposHeadline-Semibold, sans-serif;
+    font-size: 2.4rem;
+    text-align: center;
+}
+.div5 p:nth-child(2) {
+    font-family: Theinhardt-Lt, sans-serif;
+    color: #9FA2A7;
+    line-height: 30px;
+    text-align: center;
+}
+.div5  div p {
+    width: 26%;
+    font-family: Graphik-Medium, sans-serif;
+    line-height: 30px;
+    display: inline-block;
+    padding-left: 23rem;
+    padding-top: 16rem;
+    line-height: 40px;
+}
+.div5 div img {
+    width: 40vw;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-130%, 35%);
+}
+/* --------------end main-------------- */
+
+/* --------------start footer-------------- */
+
+footer {
+    margin: 10%;
+    padding: 40px;
+    border-top: 1px solid #9FA2A7;
+    text-align: center;
+}
+footer h1 {
+    font-family: TiemposHeadline-Semibold, sans-serif;
+    font-size: 3rem;
+}
+footer p, a {
+    display: inline;
+    font-family: Graphik-Medium, sans-serif;
+    color: #848689
+}
+footer p::before {
+    content:  url(/Design-Review/img/costume_guy.png);
+}
+footer a {
+    color: #000;
+    text-decoration: none
+}
+/* --------------end footer-------------- */
