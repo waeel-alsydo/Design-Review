@@ -1,9 +1,9 @@
 /* --------start font face-------- */
 
-@font-face {font-family: Graphik-Regular; src: url(/Design-Review/fonts/Graphik-Regular.woff);}
-@font-face {font-family: TiemposHeadline-Semibold; src: url(/Design-Review/fonts/TiemposHeadline-Semibold.woff);}
-@font-face {font-family: Graphik-Medium; src: url(/Design-Review/fonts/Graphik-Medium.ttf);}
-@font-face {font-family: Theinhardt-Lt; src: url(/Design-Review/fonts/Theinhardt-Lt.woff);}
+@font-face {font-family: Graphik-Regular; src: url(/fonts/Graphik-Regular.woff);}
+@font-face {font-family: TiemposHeadline-Semibold; src: url(/fonts/TiemposHeadline-Semibold.woff);}
+@font-face {font-family: Graphik-Medium; src: url(/fonts/Graphik-Medium.ttf);}
+@font-face {font-family: Theinhardt-Lt; src: url(/fonts/Theinhardt-Lt.woff);}
 
 /* --------end font face-------- */
     
@@ -128,7 +128,7 @@ nav li:nth-child(6) a:hover {
 }
 .div5 {
     height: 80vh;
-    background: url(/Design-Review/img/28.png) center/cover no-repeat;
+    background: url(/img/28.png) center/cover no-repeat;
     background-size: 1200px 250px;
     margin: 10% auto;
 }
@@ -179,7 +179,7 @@ footer p, a {
     color: #848689
 }
 footer p::before {
-    content:  url(/Design-Review/img/costume_guy.png);
+    content:  url(/img/costume_guy.png);
 }
 footer a {
     color: #000;
